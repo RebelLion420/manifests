@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!--Device repos--> 
+  <project path="device/motorola/perry" name="RebelLion420/android_device_motorola_perry" revision="lineage-17.1" />
+  <project path="device/motorola/msm8937-common" name="JarlPenguin/android_device_motorola_msm8937-common-1" />
+  <project path="kernel/motorola/msm8937" name="JarlPenguin/android_kernel_motorola_msm8937" />
+  <project path="vendor/motorola" name="JarlPenguin/proprietary_vendor_motorola" revision="staging/lineage-17.1" />
+  
+  <!--Dependencies-->
+  <project path="external/bson" name="LineageOS/android_external_bson" />
+  <project path="system/qcom" name="LineageOS/android_system_qcom" />
+
+  <!--Updater-->
+  <remove-project name="LineageOS/android_packages_apps_Updater" />
+  <project path="packages/apps/Updater" name="MontanaDevelopment/android_packages_apps_Updater" />
+
+</manifest> 
